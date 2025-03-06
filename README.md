@@ -2,7 +2,7 @@
 
 #### Implementa en Java el método de ordenación de la burbuja para un array bidimensional (o matriz) de números enteros. Este método debe recibir una array bidimensional como parámetro y permitir la ordenación tanto ascendente como descendente. El tipo de ordenación (ascendente o descendente) se especificará mediante un parámetro booleano a vuestro criterio. 
 
-## Pseudo
+## Pseudo swap matrix[currentRow][currentColumn] and matrix[nextRow][nextColumn]
 
       function bubbleSort2D(matrix, ascending)
           if matrix is null or matrix has no elements
@@ -25,7 +25,7 @@
                       end if
                   else
                       if matrix[currentRow][currentColumn] < matrix[nextRow][nextColumn]
-                          swap matrix[currentRow][currentColumn] and matrix[nextRow][nextColumn]ç
+                          swap matrix[currentRow][currentColumn] and matrix[nextRow][nextColumn]
                       end if
                   end if
               end for
