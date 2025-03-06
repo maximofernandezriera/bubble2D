@@ -6,7 +6,7 @@
 
       function bubbleSort2D(matrix, ascending)
           if matrix is null or matrix has no elements
-              return
+              return null
       
           rows = number of rows in matrix
           columns = number of columns in matrix
